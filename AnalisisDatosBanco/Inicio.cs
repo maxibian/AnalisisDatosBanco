@@ -61,8 +61,8 @@ namespace AnalisisDatosBanco
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            Form Capital = new Capital();
-            Capital.ShowDialog();
+             Capital formCapital = new Capital(textBoxPromedioHipotecario.Text, textBoxPromedioNacion.Text, textBoxPromedioProvincia.Text);
+            formCapital.ShowDialog();
         }
     }
 }

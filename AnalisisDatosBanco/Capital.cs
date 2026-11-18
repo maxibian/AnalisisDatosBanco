@@ -12,9 +12,15 @@ namespace AnalisisDatosBanco
 {
     public partial class Capital : Form
     {
-        public Capital()
+        string txtHipotecario;
+        string txtNacion;
+        string txtProvincia;
+        public Capital(string txtBoxHipotecario, string txtBoxNacion, string txtBoxProvincia)
         {
             InitializeComponent();
+            txtHipotecario = txtBoxHipotecario;
+            txtNacion = txtBoxNacion;
+            txtProvincia = txtBoxProvincia;
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)
@@ -24,8 +30,8 @@ namespace AnalisisDatosBanco
                 MessageBox.Show("Por favor, ingrese un valor numérico válido para el capital a invertir.", "Error de entrada", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            Form Inversion = new Inversion();
-            Inversion.ShowDialog();
+            Inversion formInversion = new Inversion(textBoxCapital.Text, txtHipotecario, txtProvincia, txtNacion);
+            formInversion.ShowDialog();
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
