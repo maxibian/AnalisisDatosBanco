@@ -30,11 +30,23 @@ namespace AnalisisDatosBanco
             textBox2023Nacion.Text = "";
             textBox2024Nacion.Text = "";
             textBox2025Nacion.Text = "";
+            textBoxPromedioHipotecario.Text = "";
+            textBoxPromedioNacion.Text = "";
+            textBoxPromedioProvincia.Text = "";
         }
 
         private void btnAnalizar_Click(object sender, EventArgs e)
         {
-            //if (textBox2023Hipotecario )
+            if (textOk(textBox2023Hipotecario) == true && textOk(textBox2024Hipotecario) == true && textOk(textBox2025Hipotecario) == true && textOk(textBox2023Provincia) == true && textOk(textBox2024Provincia) == true && textOk(textBox2025Provincia) == true && textOk(textBox2023Nacion) == true && textOk(textBox2024Nacion) == true && textOk(textBox2025Nacion) == true)
+            {
+                textBoxPromedioHipotecario.Text = ((decimal.Parse(textBox2023Hipotecario.Text) + decimal.Parse(textBox2024Hipotecario.Text) + decimal.Parse(textBox2025Hipotecario.Text)) / 3).ToString();
+                textBoxPromedioNacion.Text = ((decimal.Parse(textBox2023Nacion.Text) + decimal.Parse(textBox2024Nacion.Text) + decimal.Parse(textBox2025Nacion.Text)) / 3).ToString();
+                textBoxPromedioProvincia.Text = ((decimal.Parse(textBox2023Provincia.Text) + decimal.Parse(textBox2024Provincia.Text) + decimal.Parse(textBox2025Provincia.Text)) / 3).ToString();
+            }
+            else
+            {
+                MessageBox.Show("Por favor, ingrese valores numéricos válidos en todos los campos.", "Error de entrada", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private bool textOk(TextBox txtBox)
