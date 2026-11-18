@@ -31,7 +31,7 @@
             this.lblSubtitulo = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.btnSiguiente = new System.Windows.Forms.Button();
-            this.textBox2023Provincia = new System.Windows.Forms.TextBox();
+            this.textBoxCapital = new System.Windows.Forms.TextBox();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -73,19 +73,18 @@
             this.btnSiguiente.UseVisualStyleBackColor = false;
             this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
-            // textBox2023Provincia
+            // textBoxCapital
             // 
-            this.textBox2023Provincia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2023Provincia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
-            this.textBox2023Provincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2023Provincia.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox2023Provincia.Location = new System.Drawing.Point(227, 131);
-            this.textBox2023Provincia.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.textBox2023Provincia.Name = "textBox2023Provincia";
-            this.textBox2023Provincia.ReadOnly = true;
-            this.textBox2023Provincia.Size = new System.Drawing.Size(154, 27);
-            this.textBox2023Provincia.TabIndex = 13;
-            this.textBox2023Provincia.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxCapital.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxCapital.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.textBoxCapital.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxCapital.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.textBoxCapital.Location = new System.Drawing.Point(227, 131);
+            this.textBoxCapital.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.textBoxCapital.Name = "textBoxCapital";
+            this.textBoxCapital.Size = new System.Drawing.Size(154, 27);
+            this.textBoxCapital.TabIndex = 13;
+            this.textBoxCapital.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // btnLimpiar
             // 
@@ -110,7 +109,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(58)))), ((int)(((byte)(95)))));
             this.ClientSize = new System.Drawing.Size(419, 292);
             this.Controls.Add(this.btnLimpiar);
-            this.Controls.Add(this.textBox2023Provincia);
+            this.Controls.Add(this.textBoxCapital);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.lblSubtitulo);
             this.Controls.Add(this.lblTitulo);
@@ -126,7 +125,7 @@
         private System.Windows.Forms.Label lblSubtitulo;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Button btnSiguiente;
-        private System.Windows.Forms.TextBox textBox2023Provincia;
+        private System.Windows.Forms.TextBox textBoxCapital;
         private System.Windows.Forms.Button btnLimpiar;
     }
 }

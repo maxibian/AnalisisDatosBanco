@@ -61,7 +61,8 @@ namespace AnalisisDatosBanco
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-
+            Form Capital = new Capital();
+            Capital.ShowDialog();
         }
     }
 }
