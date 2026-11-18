@@ -51,6 +51,7 @@
             this.textBoxPromedioHipotecario = new System.Windows.Forms.TextBox();
             this.btnAnalizar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnSiguiente = new System.Windows.Forms.Button();
             this.panelHeader.SuspendLayout();
             this.panelCard.SuspendLayout();
             this.tablaDatos.SuspendLayout();
@@ -436,6 +437,22 @@
             this.btnLimpiar.UseVisualStyleBackColor = false;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
+            // btnSiguiente
+            // 
+            this.btnSiguiente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.btnSiguiente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSiguiente.FlatAppearance.BorderSize = 0;
+            this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSiguiente.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.btnSiguiente.ForeColor = System.Drawing.Color.White;
+            this.btnSiguiente.Location = new System.Drawing.Point(590, 420);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Size = new System.Drawing.Size(140, 38);
+            this.btnSiguiente.TabIndex = 11;
+            this.btnSiguiente.Text = "Siguiente";
+            this.btnSiguiente.UseVisualStyleBackColor = false;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
+            // 
             // Inicio
             // 
             this.AcceptButton = this.btnAnalizar;
@@ -443,6 +460,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.ClientSize = new System.Drawing.Size(760, 485);
+            this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnAnalizar);
             this.Controls.Add(this.panelCard);
@@ -491,5 +509,6 @@
         private System.Windows.Forms.TextBox textBoxPromedioHipotecario;
         private System.Windows.Forms.Button btnAnalizar;
         private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button btnSiguiente;
     }
 }
