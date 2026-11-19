@@ -49,7 +49,6 @@
             this.textBoxAnualProvincia = new System.Windows.Forms.TextBox();
             this.textBoxAnualNacion = new System.Windows.Forms.TextBox();
             this.textBoxAnualHipotecario = new System.Windows.Forms.TextBox();
-            this.labelMejorOpcion = new System.Windows.Forms.Label();
             this.textBoxOpcionProvincia = new System.Windows.Forms.TextBox();
             this.textBoxOpcionNacion = new System.Windows.Forms.TextBox();
             this.textBoxOpcionHipotecario = new System.Windows.Forms.TextBox();
@@ -77,7 +76,7 @@
             this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(205)))), ((int)(((byte)(225)))));
             this.lblSubtitulo.Location = new System.Drawing.Point(31, 54);
             this.lblSubtitulo.Name = "lblSubtitulo";
-            this.lblSubtitulo.Size = new System.Drawing.Size(351, 29);
+            this.lblSubtitulo.Size = new System.Drawing.Size(281, 23);
             this.lblSubtitulo.TabIndex = 0;
             this.lblSubtitulo.Text = "Ganacia anual por tipo de inversión";
             // 
@@ -126,7 +125,6 @@
             this.tablaDatos.Controls.Add(this.textBoxAnualProvincia, 1, 3);
             this.tablaDatos.Controls.Add(this.textBoxAnualNacion, 2, 3);
             this.tablaDatos.Controls.Add(this.textBoxAnualHipotecario, 3, 3);
-            this.tablaDatos.Controls.Add(this.labelMejorOpcion, 0, 4);
             this.tablaDatos.Controls.Add(this.textBoxOpcionProvincia, 1, 4);
             this.tablaDatos.Controls.Add(this.textBoxOpcionNacion, 2, 4);
             this.tablaDatos.Controls.Add(this.textBoxOpcionHipotecario, 3, 4);
@@ -355,19 +353,6 @@
             this.textBoxAnualHipotecario.TabIndex = 8;
             this.textBoxAnualHipotecario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // labelMejorOpcion
-            // 
-            this.labelMejorOpcion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelMejorOpcion.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
-            this.labelMejorOpcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
-            this.labelMejorOpcion.Location = new System.Drawing.Point(3, 197);
-            this.labelMejorOpcion.Name = "labelMejorOpcion";
-            this.labelMejorOpcion.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.labelMejorOpcion.Size = new System.Drawing.Size(94, 54);
-            this.labelMejorOpcion.TabIndex = 7;
-            this.labelMejorOpcion.Text = "Mejor Opción";
-            this.labelMejorOpcion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // textBoxOpcionProvincia
             // 
             this.textBoxOpcionProvincia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -480,7 +465,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label labelMejorOpcion;
         private System.Windows.Forms.TextBox textBoxOpcionProvincia;
         private System.Windows.Forms.TextBox textBoxOpcionNacion;
         private System.Windows.Forms.TextBox textBoxOpcionHipotecario;
