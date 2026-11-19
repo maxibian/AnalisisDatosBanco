@@ -15,8 +15,6 @@ namespace AnalisisDatosBanco
         public Inicio()
         {
             InitializeComponent();
-            btnSiguiente.Visible = false;
-
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -33,24 +31,20 @@ namespace AnalisisDatosBanco
             textBoxPromedioHipotecario.Text = "";
             textBoxPromedioNacion.Text = "";
             textBoxPromedioProvincia.Text = "";
-            btnSiguiente.Visible = false;
-            btnAnalizar.Visible = true;
         }
-
-        private void btnAnalizar_Click(object sender, EventArgs e)
-        { 
+        private bool analizar()
+        {
             if (textOk(textBox2023Hipotecario) == true && textOk(textBox2024Hipotecario) == true && textOk(textBox2025Hipotecario) == true && textOk(textBox2023Provincia) == true && textOk(textBox2024Provincia) == true && textOk(textBox2025Provincia) == true && textOk(textBox2023Nacion) == true && textOk(textBox2024Nacion) == true && textOk(textBox2025Nacion) == true)
             {
                 textBoxPromedioHipotecario.Text = ((decimal.Parse(textBox2023Hipotecario.Text) + decimal.Parse(textBox2024Hipotecario.Text) + decimal.Parse(textBox2025Hipotecario.Text)) / 3).ToString();
                 textBoxPromedioNacion.Text = ((decimal.Parse(textBox2023Nacion.Text) + decimal.Parse(textBox2024Nacion.Text) + decimal.Parse(textBox2025Nacion.Text)) / 3).ToString();
                 textBoxPromedioProvincia.Text = ((decimal.Parse(textBox2023Provincia.Text) + decimal.Parse(textBox2024Provincia.Text) + decimal.Parse(textBox2025Provincia.Text)) / 3).ToString();
-                btnAnalizar.Visible = false;
-                btnSiguiente.Visible = true;
-
+                return true;
             }
             else
             {
                 MessageBox.Show("Por favor, ingrese valores numéricos válidos en todos los campos.", "Error de entrada", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
             }
         }
 
@@ -61,8 +55,11 @@ namespace AnalisisDatosBanco
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-             Capital formCapital = new Capital(textBoxPromedioHipotecario.Text, textBoxPromedioNacion.Text, textBoxPromedioProvincia.Text);
-            formCapital.ShowDialog();
+            if (analizar() == true)
+            {
+                Capital formCapital = new Capital(textBoxPromedioHipotecario.Text, textBoxPromedioNacion.Text, textBoxPromedioProvincia.Text);
+                formCapital.ShowDialog();
+            }
         }
     }
 }

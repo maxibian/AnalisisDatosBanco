@@ -50,9 +50,9 @@
             this.textBoxAnualNacion = new System.Windows.Forms.TextBox();
             this.textBoxAnualHipotecario = new System.Windows.Forms.TextBox();
             this.labelMejorOpcion = new System.Windows.Forms.Label();
-            this.textBoxPromedioProvincia = new System.Windows.Forms.TextBox();
-            this.textBoxPromedioNacion = new System.Windows.Forms.TextBox();
-            this.textBoxPromedioHipotecario = new System.Windows.Forms.TextBox();
+            this.textBoxOpcionProvincia = new System.Windows.Forms.TextBox();
+            this.textBoxOpcionNacion = new System.Windows.Forms.TextBox();
+            this.textBoxOpcionHipotecario = new System.Windows.Forms.TextBox();
             this.btnVolver = new System.Windows.Forms.Button();
             this.panelHeader.SuspendLayout();
             this.panelCard.SuspendLayout();
@@ -77,9 +77,9 @@
             this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(205)))), ((int)(((byte)(225)))));
             this.lblSubtitulo.Location = new System.Drawing.Point(31, 54);
             this.lblSubtitulo.Name = "lblSubtitulo";
-            this.lblSubtitulo.Size = new System.Drawing.Size(183, 19);
+            this.lblSubtitulo.Size = new System.Drawing.Size(250, 29);
             this.lblSubtitulo.TabIndex = 0;
-            this.lblSubtitulo.Text = "Resultados por cada período";
+            this.lblSubtitulo.Text = "Ganacia en cada período";
             // 
             // lblTitulo
             // 
@@ -88,7 +88,7 @@
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
             this.lblTitulo.Location = new System.Drawing.Point(28, 14);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(307, 32);
+            this.lblTitulo.Size = new System.Drawing.Size(388, 41);
             this.lblTitulo.TabIndex = 1;
             this.lblTitulo.Text = "Análisis de datos bancarios";
             // 
@@ -127,9 +127,9 @@
             this.tablaDatos.Controls.Add(this.textBoxAnualNacion, 2, 3);
             this.tablaDatos.Controls.Add(this.textBoxAnualHipotecario, 3, 3);
             this.tablaDatos.Controls.Add(this.labelMejorOpcion, 0, 4);
-            this.tablaDatos.Controls.Add(this.textBoxPromedioProvincia, 1, 4);
-            this.tablaDatos.Controls.Add(this.textBoxPromedioNacion, 2, 4);
-            this.tablaDatos.Controls.Add(this.textBoxPromedioHipotecario, 3, 4);
+            this.tablaDatos.Controls.Add(this.textBoxOpcionProvincia, 1, 4);
+            this.tablaDatos.Controls.Add(this.textBoxOpcionNacion, 2, 4);
+            this.tablaDatos.Controls.Add(this.textBoxOpcionHipotecario, 3, 4);
             this.tablaDatos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tablaDatos.Location = new System.Drawing.Point(16, 16);
             this.tablaDatos.Name = "tablaDatos";
@@ -209,11 +209,11 @@
             this.textBoxMensualProvincia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBoxMensualProvincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxMensualProvincia.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBoxMensualProvincia.Location = new System.Drawing.Point(110, 56);
+            this.textBoxMensualProvincia.Location = new System.Drawing.Point(110, 53);
             this.textBoxMensualProvincia.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxMensualProvincia.Name = "textBoxMensualProvincia";
             this.textBoxMensualProvincia.ReadOnly = true;
-            this.textBoxMensualProvincia.Size = new System.Drawing.Size(168, 27);
+            this.textBoxMensualProvincia.Size = new System.Drawing.Size(168, 32);
             this.textBoxMensualProvincia.TabIndex = 0;
             this.textBoxMensualProvincia.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -223,11 +223,11 @@
             this.textBoxMensualNacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBoxMensualNacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxMensualNacion.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBoxMensualNacion.Location = new System.Drawing.Point(298, 56);
+            this.textBoxMensualNacion.Location = new System.Drawing.Point(298, 53);
             this.textBoxMensualNacion.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxMensualNacion.Name = "textBoxMensualNacion";
             this.textBoxMensualNacion.ReadOnly = true;
-            this.textBoxMensualNacion.Size = new System.Drawing.Size(168, 27);
+            this.textBoxMensualNacion.Size = new System.Drawing.Size(168, 32);
             this.textBoxMensualNacion.TabIndex = 1;
             this.textBoxMensualNacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -237,11 +237,11 @@
             this.textBoxMensualHipotecario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBoxMensualHipotecario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxMensualHipotecario.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBoxMensualHipotecario.Location = new System.Drawing.Point(486, 56);
+            this.textBoxMensualHipotecario.Location = new System.Drawing.Point(486, 53);
             this.textBoxMensualHipotecario.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxMensualHipotecario.Name = "textBoxMensualHipotecario";
             this.textBoxMensualHipotecario.ReadOnly = true;
-            this.textBoxMensualHipotecario.Size = new System.Drawing.Size(170, 27);
+            this.textBoxMensualHipotecario.Size = new System.Drawing.Size(170, 32);
             this.textBoxMensualHipotecario.TabIndex = 2;
             this.textBoxMensualHipotecario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -264,11 +264,11 @@
             this.textBoxTrimestralProvincia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBoxTrimestralProvincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxTrimestralProvincia.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBoxTrimestralProvincia.Location = new System.Drawing.Point(110, 107);
+            this.textBoxTrimestralProvincia.Location = new System.Drawing.Point(110, 104);
             this.textBoxTrimestralProvincia.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxTrimestralProvincia.Name = "textBoxTrimestralProvincia";
             this.textBoxTrimestralProvincia.ReadOnly = true;
-            this.textBoxTrimestralProvincia.Size = new System.Drawing.Size(168, 27);
+            this.textBoxTrimestralProvincia.Size = new System.Drawing.Size(168, 32);
             this.textBoxTrimestralProvincia.TabIndex = 3;
             this.textBoxTrimestralProvincia.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -278,11 +278,11 @@
             this.textBoxTrimestralNacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBoxTrimestralNacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxTrimestralNacion.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBoxTrimestralNacion.Location = new System.Drawing.Point(298, 107);
+            this.textBoxTrimestralNacion.Location = new System.Drawing.Point(298, 104);
             this.textBoxTrimestralNacion.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxTrimestralNacion.Name = "textBoxTrimestralNacion";
             this.textBoxTrimestralNacion.ReadOnly = true;
-            this.textBoxTrimestralNacion.Size = new System.Drawing.Size(168, 27);
+            this.textBoxTrimestralNacion.Size = new System.Drawing.Size(168, 32);
             this.textBoxTrimestralNacion.TabIndex = 4;
             this.textBoxTrimestralNacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -292,11 +292,11 @@
             this.textBoxTrimestralHipotecario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBoxTrimestralHipotecario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxTrimestralHipotecario.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBoxTrimestralHipotecario.Location = new System.Drawing.Point(486, 107);
+            this.textBoxTrimestralHipotecario.Location = new System.Drawing.Point(486, 104);
             this.textBoxTrimestralHipotecario.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxTrimestralHipotecario.Name = "textBoxTrimestralHipotecario";
             this.textBoxTrimestralHipotecario.ReadOnly = true;
-            this.textBoxTrimestralHipotecario.Size = new System.Drawing.Size(170, 27);
+            this.textBoxTrimestralHipotecario.Size = new System.Drawing.Size(170, 32);
             this.textBoxTrimestralHipotecario.TabIndex = 5;
             this.textBoxTrimestralHipotecario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -319,11 +319,11 @@
             this.textBoxAnualProvincia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBoxAnualProvincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxAnualProvincia.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBoxAnualProvincia.Location = new System.Drawing.Point(110, 158);
+            this.textBoxAnualProvincia.Location = new System.Drawing.Point(110, 155);
             this.textBoxAnualProvincia.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxAnualProvincia.Name = "textBoxAnualProvincia";
             this.textBoxAnualProvincia.ReadOnly = true;
-            this.textBoxAnualProvincia.Size = new System.Drawing.Size(168, 27);
+            this.textBoxAnualProvincia.Size = new System.Drawing.Size(168, 32);
             this.textBoxAnualProvincia.TabIndex = 6;
             this.textBoxAnualProvincia.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -333,11 +333,11 @@
             this.textBoxAnualNacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBoxAnualNacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxAnualNacion.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBoxAnualNacion.Location = new System.Drawing.Point(298, 158);
+            this.textBoxAnualNacion.Location = new System.Drawing.Point(298, 155);
             this.textBoxAnualNacion.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxAnualNacion.Name = "textBoxAnualNacion";
             this.textBoxAnualNacion.ReadOnly = true;
-            this.textBoxAnualNacion.Size = new System.Drawing.Size(168, 27);
+            this.textBoxAnualNacion.Size = new System.Drawing.Size(168, 32);
             this.textBoxAnualNacion.TabIndex = 7;
             this.textBoxAnualNacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -347,11 +347,11 @@
             this.textBoxAnualHipotecario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBoxAnualHipotecario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxAnualHipotecario.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBoxAnualHipotecario.Location = new System.Drawing.Point(486, 158);
+            this.textBoxAnualHipotecario.Location = new System.Drawing.Point(486, 155);
             this.textBoxAnualHipotecario.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxAnualHipotecario.Name = "textBoxAnualHipotecario";
             this.textBoxAnualHipotecario.ReadOnly = true;
-            this.textBoxAnualHipotecario.Size = new System.Drawing.Size(170, 27);
+            this.textBoxAnualHipotecario.Size = new System.Drawing.Size(170, 32);
             this.textBoxAnualHipotecario.TabIndex = 8;
             this.textBoxAnualHipotecario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -368,53 +368,53 @@
             this.labelMejorOpcion.Text = "Mejor Opción";
             this.labelMejorOpcion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // textBoxPromedioProvincia
+            // textBoxOpcionProvincia
             // 
-            this.textBoxPromedioProvincia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxPromedioProvincia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
-            this.textBoxPromedioProvincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxPromedioProvincia.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
-            this.textBoxPromedioProvincia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(58)))), ((int)(((byte)(95)))));
-            this.textBoxPromedioProvincia.Location = new System.Drawing.Point(110, 210);
-            this.textBoxPromedioProvincia.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.textBoxPromedioProvincia.Name = "textBoxPromedioProvincia";
-            this.textBoxPromedioProvincia.ReadOnly = true;
-            this.textBoxPromedioProvincia.Size = new System.Drawing.Size(168, 27);
-            this.textBoxPromedioProvincia.TabIndex = 11;
-            this.textBoxPromedioProvincia.TabStop = false;
-            this.textBoxPromedioProvincia.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxOpcionProvincia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxOpcionProvincia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
+            this.textBoxOpcionProvincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxOpcionProvincia.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
+            this.textBoxOpcionProvincia.ForeColor = System.Drawing.Color.Black;
+            this.textBoxOpcionProvincia.Location = new System.Drawing.Point(110, 208);
+            this.textBoxOpcionProvincia.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.textBoxOpcionProvincia.Name = "textBoxOpcionProvincia";
+            this.textBoxOpcionProvincia.ReadOnly = true;
+            this.textBoxOpcionProvincia.Size = new System.Drawing.Size(168, 32);
+            this.textBoxOpcionProvincia.TabIndex = 11;
+            this.textBoxOpcionProvincia.TabStop = false;
+            this.textBoxOpcionProvincia.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBoxPromedioNacion
+            // textBoxOpcionNacion
             // 
-            this.textBoxPromedioNacion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxPromedioNacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
-            this.textBoxPromedioNacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxPromedioNacion.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
-            this.textBoxPromedioNacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(58)))), ((int)(((byte)(95)))));
-            this.textBoxPromedioNacion.Location = new System.Drawing.Point(298, 210);
-            this.textBoxPromedioNacion.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.textBoxPromedioNacion.Name = "textBoxPromedioNacion";
-            this.textBoxPromedioNacion.ReadOnly = true;
-            this.textBoxPromedioNacion.Size = new System.Drawing.Size(168, 27);
-            this.textBoxPromedioNacion.TabIndex = 12;
-            this.textBoxPromedioNacion.TabStop = false;
-            this.textBoxPromedioNacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxOpcionNacion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxOpcionNacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
+            this.textBoxOpcionNacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxOpcionNacion.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
+            this.textBoxOpcionNacion.ForeColor = System.Drawing.Color.Black;
+            this.textBoxOpcionNacion.Location = new System.Drawing.Point(298, 208);
+            this.textBoxOpcionNacion.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.textBoxOpcionNacion.Name = "textBoxOpcionNacion";
+            this.textBoxOpcionNacion.ReadOnly = true;
+            this.textBoxOpcionNacion.Size = new System.Drawing.Size(168, 32);
+            this.textBoxOpcionNacion.TabIndex = 12;
+            this.textBoxOpcionNacion.TabStop = false;
+            this.textBoxOpcionNacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBoxPromedioHipotecario
+            // textBoxOpcionHipotecario
             // 
-            this.textBoxPromedioHipotecario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxPromedioHipotecario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
-            this.textBoxPromedioHipotecario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxPromedioHipotecario.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
-            this.textBoxPromedioHipotecario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(58)))), ((int)(((byte)(95)))));
-            this.textBoxPromedioHipotecario.Location = new System.Drawing.Point(486, 210);
-            this.textBoxPromedioHipotecario.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
-            this.textBoxPromedioHipotecario.Name = "textBoxPromedioHipotecario";
-            this.textBoxPromedioHipotecario.ReadOnly = true;
-            this.textBoxPromedioHipotecario.Size = new System.Drawing.Size(170, 27);
-            this.textBoxPromedioHipotecario.TabIndex = 13;
-            this.textBoxPromedioHipotecario.TabStop = false;
-            this.textBoxPromedioHipotecario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxOpcionHipotecario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxOpcionHipotecario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
+            this.textBoxOpcionHipotecario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxOpcionHipotecario.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
+            this.textBoxOpcionHipotecario.ForeColor = System.Drawing.Color.Black;
+            this.textBoxOpcionHipotecario.Location = new System.Drawing.Point(486, 208);
+            this.textBoxOpcionHipotecario.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.textBoxOpcionHipotecario.Name = "textBoxOpcionHipotecario";
+            this.textBoxOpcionHipotecario.ReadOnly = true;
+            this.textBoxOpcionHipotecario.Size = new System.Drawing.Size(170, 32);
+            this.textBoxOpcionHipotecario.TabIndex = 13;
+            this.textBoxOpcionHipotecario.TabStop = false;
+            this.textBoxOpcionHipotecario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnVolver
             // 
@@ -435,7 +435,7 @@
             // Inversion
             // 
             this.AcceptButton = this.btnVolver;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.ClientSize = new System.Drawing.Size(760, 485);
@@ -481,9 +481,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label labelMejorOpcion;
-        private System.Windows.Forms.TextBox textBoxPromedioProvincia;
-        private System.Windows.Forms.TextBox textBoxPromedioNacion;
-        private System.Windows.Forms.TextBox textBoxPromedioHipotecario;
+        private System.Windows.Forms.TextBox textBoxOpcionProvincia;
+        private System.Windows.Forms.TextBox textBoxOpcionNacion;
+        private System.Windows.Forms.TextBox textBoxOpcionHipotecario;
         private System.Windows.Forms.Button btnVolver;
     }
 }

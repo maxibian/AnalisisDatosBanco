@@ -49,7 +49,6 @@
             this.textBoxPromedioProvincia = new System.Windows.Forms.TextBox();
             this.textBoxPromedioNacion = new System.Windows.Forms.TextBox();
             this.textBoxPromedioHipotecario = new System.Windows.Forms.TextBox();
-            this.btnAnalizar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.panelHeader.SuspendLayout();
@@ -75,7 +74,7 @@
             this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(205)))), ((int)(((byte)(225)))));
             this.lblSubtitulo.Location = new System.Drawing.Point(31, 54);
             this.lblSubtitulo.Name = "lblSubtitulo";
-            this.lblSubtitulo.Size = new System.Drawing.Size(266, 19);
+            this.lblSubtitulo.Size = new System.Drawing.Size(332, 23);
             this.lblSubtitulo.TabIndex = 0;
             this.lblSubtitulo.Text = "Ingrese los valores de cada banco por año";
             // 
@@ -86,7 +85,7 @@
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
             this.lblTitulo.Location = new System.Drawing.Point(28, 14);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(307, 32);
+            this.lblTitulo.Size = new System.Drawing.Size(388, 41);
             this.lblTitulo.TabIndex = 1;
             this.lblTitulo.Text = "Análisis de datos bancarios";
             // 
@@ -207,10 +206,10 @@
             this.textBox2023Provincia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBox2023Provincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2023Provincia.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox2023Provincia.Location = new System.Drawing.Point(110, 56);
+            this.textBox2023Provincia.Location = new System.Drawing.Point(110, 53);
             this.textBox2023Provincia.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBox2023Provincia.Name = "textBox2023Provincia";
-            this.textBox2023Provincia.Size = new System.Drawing.Size(168, 27);
+            this.textBox2023Provincia.Size = new System.Drawing.Size(168, 32);
             this.textBox2023Provincia.TabIndex = 0;
             this.textBox2023Provincia.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -220,10 +219,10 @@
             this.textBox2023Nacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBox2023Nacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2023Nacion.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox2023Nacion.Location = new System.Drawing.Point(298, 56);
+            this.textBox2023Nacion.Location = new System.Drawing.Point(298, 53);
             this.textBox2023Nacion.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBox2023Nacion.Name = "textBox2023Nacion";
-            this.textBox2023Nacion.Size = new System.Drawing.Size(168, 27);
+            this.textBox2023Nacion.Size = new System.Drawing.Size(168, 32);
             this.textBox2023Nacion.TabIndex = 1;
             this.textBox2023Nacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -233,10 +232,10 @@
             this.textBox2023Hipotecario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBox2023Hipotecario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2023Hipotecario.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox2023Hipotecario.Location = new System.Drawing.Point(486, 56);
+            this.textBox2023Hipotecario.Location = new System.Drawing.Point(486, 53);
             this.textBox2023Hipotecario.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBox2023Hipotecario.Name = "textBox2023Hipotecario";
-            this.textBox2023Hipotecario.Size = new System.Drawing.Size(170, 27);
+            this.textBox2023Hipotecario.Size = new System.Drawing.Size(170, 32);
             this.textBox2023Hipotecario.TabIndex = 2;
             this.textBox2023Hipotecario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -259,10 +258,10 @@
             this.textBox2024Provincia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBox2024Provincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2024Provincia.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox2024Provincia.Location = new System.Drawing.Point(110, 107);
+            this.textBox2024Provincia.Location = new System.Drawing.Point(110, 104);
             this.textBox2024Provincia.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBox2024Provincia.Name = "textBox2024Provincia";
-            this.textBox2024Provincia.Size = new System.Drawing.Size(168, 27);
+            this.textBox2024Provincia.Size = new System.Drawing.Size(168, 32);
             this.textBox2024Provincia.TabIndex = 3;
             this.textBox2024Provincia.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -272,10 +271,10 @@
             this.textBox2024Nacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBox2024Nacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2024Nacion.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox2024Nacion.Location = new System.Drawing.Point(298, 107);
+            this.textBox2024Nacion.Location = new System.Drawing.Point(298, 104);
             this.textBox2024Nacion.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBox2024Nacion.Name = "textBox2024Nacion";
-            this.textBox2024Nacion.Size = new System.Drawing.Size(168, 27);
+            this.textBox2024Nacion.Size = new System.Drawing.Size(168, 32);
             this.textBox2024Nacion.TabIndex = 4;
             this.textBox2024Nacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -285,10 +284,10 @@
             this.textBox2024Hipotecario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBox2024Hipotecario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2024Hipotecario.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox2024Hipotecario.Location = new System.Drawing.Point(486, 107);
+            this.textBox2024Hipotecario.Location = new System.Drawing.Point(486, 104);
             this.textBox2024Hipotecario.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBox2024Hipotecario.Name = "textBox2024Hipotecario";
-            this.textBox2024Hipotecario.Size = new System.Drawing.Size(170, 27);
+            this.textBox2024Hipotecario.Size = new System.Drawing.Size(170, 32);
             this.textBox2024Hipotecario.TabIndex = 5;
             this.textBox2024Hipotecario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -311,10 +310,10 @@
             this.textBox2025Provincia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBox2025Provincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2025Provincia.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox2025Provincia.Location = new System.Drawing.Point(110, 158);
+            this.textBox2025Provincia.Location = new System.Drawing.Point(110, 155);
             this.textBox2025Provincia.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBox2025Provincia.Name = "textBox2025Provincia";
-            this.textBox2025Provincia.Size = new System.Drawing.Size(168, 27);
+            this.textBox2025Provincia.Size = new System.Drawing.Size(168, 32);
             this.textBox2025Provincia.TabIndex = 6;
             this.textBox2025Provincia.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -324,10 +323,10 @@
             this.textBox2025Nacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBox2025Nacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2025Nacion.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox2025Nacion.Location = new System.Drawing.Point(298, 158);
+            this.textBox2025Nacion.Location = new System.Drawing.Point(298, 155);
             this.textBox2025Nacion.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBox2025Nacion.Name = "textBox2025Nacion";
-            this.textBox2025Nacion.Size = new System.Drawing.Size(168, 27);
+            this.textBox2025Nacion.Size = new System.Drawing.Size(168, 32);
             this.textBox2025Nacion.TabIndex = 7;
             this.textBox2025Nacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -337,10 +336,10 @@
             this.textBox2025Hipotecario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBox2025Hipotecario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2025Hipotecario.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox2025Hipotecario.Location = new System.Drawing.Point(486, 158);
+            this.textBox2025Hipotecario.Location = new System.Drawing.Point(486, 155);
             this.textBox2025Hipotecario.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBox2025Hipotecario.Name = "textBox2025Hipotecario";
-            this.textBox2025Hipotecario.Size = new System.Drawing.Size(170, 27);
+            this.textBox2025Hipotecario.Size = new System.Drawing.Size(170, 32);
             this.textBox2025Hipotecario.TabIndex = 8;
             this.textBox2025Hipotecario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -364,11 +363,11 @@
             this.textBoxPromedioProvincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxPromedioProvincia.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
             this.textBoxPromedioProvincia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(58)))), ((int)(((byte)(95)))));
-            this.textBoxPromedioProvincia.Location = new System.Drawing.Point(110, 210);
+            this.textBoxPromedioProvincia.Location = new System.Drawing.Point(110, 208);
             this.textBoxPromedioProvincia.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxPromedioProvincia.Name = "textBoxPromedioProvincia";
             this.textBoxPromedioProvincia.ReadOnly = true;
-            this.textBoxPromedioProvincia.Size = new System.Drawing.Size(168, 27);
+            this.textBoxPromedioProvincia.Size = new System.Drawing.Size(168, 32);
             this.textBoxPromedioProvincia.TabIndex = 11;
             this.textBoxPromedioProvincia.TabStop = false;
             this.textBoxPromedioProvincia.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -380,11 +379,11 @@
             this.textBoxPromedioNacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxPromedioNacion.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
             this.textBoxPromedioNacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(58)))), ((int)(((byte)(95)))));
-            this.textBoxPromedioNacion.Location = new System.Drawing.Point(298, 210);
+            this.textBoxPromedioNacion.Location = new System.Drawing.Point(298, 208);
             this.textBoxPromedioNacion.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxPromedioNacion.Name = "textBoxPromedioNacion";
             this.textBoxPromedioNacion.ReadOnly = true;
-            this.textBoxPromedioNacion.Size = new System.Drawing.Size(168, 27);
+            this.textBoxPromedioNacion.Size = new System.Drawing.Size(168, 32);
             this.textBoxPromedioNacion.TabIndex = 12;
             this.textBoxPromedioNacion.TabStop = false;
             this.textBoxPromedioNacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -396,30 +395,14 @@
             this.textBoxPromedioHipotecario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxPromedioHipotecario.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
             this.textBoxPromedioHipotecario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(58)))), ((int)(((byte)(95)))));
-            this.textBoxPromedioHipotecario.Location = new System.Drawing.Point(486, 210);
+            this.textBoxPromedioHipotecario.Location = new System.Drawing.Point(486, 208);
             this.textBoxPromedioHipotecario.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxPromedioHipotecario.Name = "textBoxPromedioHipotecario";
             this.textBoxPromedioHipotecario.ReadOnly = true;
-            this.textBoxPromedioHipotecario.Size = new System.Drawing.Size(170, 27);
+            this.textBoxPromedioHipotecario.Size = new System.Drawing.Size(170, 32);
             this.textBoxPromedioHipotecario.TabIndex = 13;
             this.textBoxPromedioHipotecario.TabStop = false;
             this.textBoxPromedioHipotecario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // btnAnalizar
-            // 
-            this.btnAnalizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
-            this.btnAnalizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAnalizar.FlatAppearance.BorderSize = 0;
-            this.btnAnalizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnalizar.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.btnAnalizar.ForeColor = System.Drawing.Color.White;
-            this.btnAnalizar.Location = new System.Drawing.Point(590, 420);
-            this.btnAnalizar.Name = "btnAnalizar";
-            this.btnAnalizar.Size = new System.Drawing.Size(140, 38);
-            this.btnAnalizar.TabIndex = 9;
-            this.btnAnalizar.Text = "Analizar";
-            this.btnAnalizar.UseVisualStyleBackColor = false;
-            this.btnAnalizar.Click += new System.EventHandler(this.btnAnalizar_Click);
             // 
             // btnLimpiar
             // 
@@ -445,7 +428,7 @@
             this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSiguiente.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
             this.btnSiguiente.ForeColor = System.Drawing.Color.White;
-            this.btnSiguiente.Location = new System.Drawing.Point(590, 420);
+            this.btnSiguiente.Location = new System.Drawing.Point(590, 421);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(140, 38);
             this.btnSiguiente.TabIndex = 11;
@@ -455,14 +438,12 @@
             // 
             // Inicio
             // 
-            this.AcceptButton = this.btnAnalizar;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.ClientSize = new System.Drawing.Size(760, 485);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnLimpiar);
-            this.Controls.Add(this.btnAnalizar);
             this.Controls.Add(this.panelCard);
             this.Controls.Add(this.panelHeader);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F);
@@ -507,7 +488,6 @@
         private System.Windows.Forms.TextBox textBoxPromedioProvincia;
         private System.Windows.Forms.TextBox textBoxPromedioNacion;
         private System.Windows.Forms.TextBox textBoxPromedioHipotecario;
-        private System.Windows.Forms.Button btnAnalizar;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnSiguiente;
     }

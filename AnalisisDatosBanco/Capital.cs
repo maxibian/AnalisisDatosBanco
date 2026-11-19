@@ -30,6 +30,7 @@ namespace AnalisisDatosBanco
                 MessageBox.Show("Por favor, ingrese un valor numérico válido para el capital a invertir.", "Error de entrada", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            Close();
             Inversion formInversion = new Inversion(textBoxCapital.Text, txtHipotecario, txtProvincia, txtNacion);
             formInversion.ShowDialog();
         }
