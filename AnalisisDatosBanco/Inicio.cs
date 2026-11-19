@@ -58,6 +58,9 @@ namespace AnalisisDatosBanco
             if (analizar() == true)
             {
                 Capital formCapital = new Capital(textBoxPromedioHipotecario.Text, textBoxPromedioNacion.Text, textBoxPromedioProvincia.Text);
+
+                formCapital.StartPosition = FormStartPosition.CenterScreen;
+
                 formCapital.ShowDialog();
             }
         }
