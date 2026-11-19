@@ -78,58 +78,58 @@ namespace AnalisisDatosBanco
         {
             if (txt1 > txt2 && txt1 > txt3)
             {
-                textBoxOpcionHipotecario.BackColor = Color.SpringGreen;
+                textBoxOpcionHipotecario.BackColor = Color.Green;
                 textBoxOpcionHipotecario.Text = "Mejor Opción";
-                textBoxOpcionNacion.BackColor = Color.Tomato;
-                textBoxOpcionProvincia.BackColor = Color.Tomato;
+                textBoxOpcionNacion.BackColor = Color.Firebrick;
+                textBoxOpcionProvincia.BackColor = Color.Firebrick;
             }
             else if (txt2 > txt1 && txt2 > txt3)
             {
-                textBoxOpcionProvincia.BackColor = Color.SpringGreen;
+                textBoxOpcionProvincia.BackColor = Color.Green;
                 textBoxOpcionProvincia.Text = "Mejor Opción";
-                textBoxOpcionHipotecario.BackColor = Color.Tomato;
-                textBoxOpcionNacion.BackColor = Color.Tomato;
+                textBoxOpcionHipotecario.BackColor = Color.Firebrick;
+                textBoxOpcionNacion.BackColor = Color.Firebrick;
             }
 
             else if (txt3 > txt1 && txt3 > txt2)
             {
-                textBoxOpcionNacion.BackColor = Color.SpringGreen;
+                textBoxOpcionNacion.BackColor = Color.Green;
                 textBoxOpcionNacion.Text = "Mejor Opción";
-                textBoxOpcionHipotecario.BackColor = Color.Tomato;
-                textBoxOpcionProvincia.BackColor = Color.Tomato;
+                textBoxOpcionHipotecario.BackColor = Color.Firebrick;
+                textBoxOpcionProvincia.BackColor = Color.Firebrick  ;
             }
             else if (txt1 == txt2 && txt2 == txt3)
             {
-                textBoxOpcionHipotecario.BackColor = Color.SpringGreen;
+                textBoxOpcionHipotecario.BackColor = Color.Green;
                 textBoxOpcionHipotecario.Text = "Mejor Opción";
-                textBoxOpcionProvincia.BackColor = Color.SpringGreen;
+                textBoxOpcionProvincia.BackColor = Color.Green;
                 textBoxOpcionProvincia.Text = "Mejor Opción";
-                textBoxOpcionNacion.BackColor = Color.SpringGreen;
+                textBoxOpcionNacion.BackColor = Color.Green ;
                 textBoxOpcionNacion.Text = "Mejor Opción";
             }
             else if (txt1 == txt2)
             {
-                textBoxOpcionHipotecario.BackColor = Color.SpringGreen;
+                textBoxOpcionHipotecario.BackColor = Color.Green;
                 textBoxOpcionHipotecario.Text = "Mejor Opción";
-                textBoxOpcionProvincia.BackColor = Color.SpringGreen;
+                textBoxOpcionProvincia.BackColor = Color.Green;
                 textBoxOpcionProvincia.Text = "Mejor Opción";
-                textBoxOpcionNacion.BackColor = Color.Tomato;
+                textBoxOpcionNacion.BackColor = Color.Firebrick;
             }
             else if (txt2 == txt3)
             {
-                textBoxOpcionProvincia.BackColor = Color.SpringGreen;
+                textBoxOpcionProvincia.BackColor = Color.Green;
                 textBoxOpcionProvincia.Text = "Mejor Opción";
-                textBoxOpcionNacion.BackColor = Color.SpringGreen;
+                textBoxOpcionNacion.BackColor = Color.Green;
                 textBoxOpcionNacion.Text = "Mejor Opción";
-                textBoxOpcionHipotecario.BackColor = Color.Tomato;
+                textBoxOpcionHipotecario.BackColor = Color.Firebrick;
             }
             else if (txt1 == txt3)
             {
-                textBoxOpcionHipotecario.BackColor = Color.SpringGreen;
+                textBoxOpcionHipotecario.BackColor = Color.Green;
                 textBoxOpcionHipotecario.Text = "Mejor Opción";
-                textBoxOpcionNacion.BackColor = Color.SpringGreen;
+                textBoxOpcionNacion.BackColor = Color.Green;
                 textBoxOpcionNacion.Text = "Mejor Opción";
-                textBoxOpcionProvincia.BackColor = Color.Tomato;
+                textBoxOpcionProvincia.BackColor = Color.Firebrick;
             }
         }
     }

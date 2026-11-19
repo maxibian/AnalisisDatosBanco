@@ -74,9 +74,9 @@
             this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(205)))), ((int)(((byte)(225)))));
             this.lblSubtitulo.Location = new System.Drawing.Point(31, 54);
             this.lblSubtitulo.Name = "lblSubtitulo";
-            this.lblSubtitulo.Size = new System.Drawing.Size(332, 23);
+            this.lblSubtitulo.Size = new System.Drawing.Size(393, 29);
             this.lblSubtitulo.TabIndex = 0;
-            this.lblSubtitulo.Text = "Ingrese los valores de cada banco por año";
+            this.lblSubtitulo.Text = "Ingrese las tasas anuales de cada banco";
             // 
             // lblTitulo
             // 

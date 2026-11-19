@@ -40,9 +40,10 @@
             this.lblSubtitulo.AutoSize = true;
             this.lblSubtitulo.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(205)))), ((int)(((byte)(225)))));
-            this.lblSubtitulo.Location = new System.Drawing.Point(42, 135);
+            this.lblSubtitulo.Location = new System.Drawing.Point(56, 166);
+            this.lblSubtitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSubtitulo.Name = "lblSubtitulo";
-            this.lblSubtitulo.Size = new System.Drawing.Size(172, 19);
+            this.lblSubtitulo.Size = new System.Drawing.Size(215, 23);
             this.lblSubtitulo.TabIndex = 2;
             this.lblSubtitulo.Text = "Ingrese el capital a invertir:";
             // 
@@ -51,9 +52,10 @@
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Segoe UI Semibold", 18F);
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
-            this.lblTitulo.Location = new System.Drawing.Point(40, 19);
+            this.lblTitulo.Location = new System.Drawing.Point(53, 23);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(307, 32);
+            this.lblTitulo.Size = new System.Drawing.Size(388, 41);
             this.lblTitulo.TabIndex = 3;
             this.lblTitulo.Text = "Análisis de datos bancarios";
             // 
@@ -65,10 +67,11 @@
             this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSiguiente.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
             this.btnSiguiente.ForeColor = System.Drawing.Color.White;
-            this.btnSiguiente.Location = new System.Drawing.Point(241, 220);
+            this.btnSiguiente.Location = new System.Drawing.Point(321, 271);
+            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(140, 38);
-            this.btnSiguiente.TabIndex = 12;
+            this.btnSiguiente.Size = new System.Drawing.Size(187, 47);
+            this.btnSiguiente.TabIndex = 2;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = false;
             this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
@@ -79,11 +82,11 @@
             this.textBoxCapital.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.textBoxCapital.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxCapital.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBoxCapital.Location = new System.Drawing.Point(227, 131);
-            this.textBoxCapital.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
+            this.textBoxCapital.Location = new System.Drawing.Point(303, 161);
+            this.textBoxCapital.Margin = new System.Windows.Forms.Padding(13, 4, 13, 4);
             this.textBoxCapital.Name = "textBoxCapital";
-            this.textBoxCapital.Size = new System.Drawing.Size(154, 27);
-            this.textBoxCapital.TabIndex = 13;
+            this.textBoxCapital.Size = new System.Drawing.Size(205, 32);
+            this.textBoxCapital.TabIndex = 0;
             this.textBoxCapital.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // btnLimpiar
@@ -94,25 +97,27 @@
             this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpiar.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.btnLimpiar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(65)))), ((int)(((byte)(85)))));
-            this.btnLimpiar.Location = new System.Drawing.Point(95, 220);
+            this.btnLimpiar.Location = new System.Drawing.Point(127, 271);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(140, 38);
-            this.btnLimpiar.TabIndex = 14;
+            this.btnLimpiar.Size = new System.Drawing.Size(187, 47);
+            this.btnLimpiar.TabIndex = 1;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // Capital
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(58)))), ((int)(((byte)(95)))));
-            this.ClientSize = new System.Drawing.Size(419, 292);
+            this.ClientSize = new System.Drawing.Size(559, 359);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.textBoxCapital);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.lblSubtitulo);
             this.Controls.Add(this.lblTitulo);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Capital";
             this.Text = "Capital";
             this.ResumeLayout(false);

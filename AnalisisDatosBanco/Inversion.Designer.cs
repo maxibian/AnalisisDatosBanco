@@ -77,9 +77,9 @@
             this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(205)))), ((int)(((byte)(225)))));
             this.lblSubtitulo.Location = new System.Drawing.Point(31, 54);
             this.lblSubtitulo.Name = "lblSubtitulo";
-            this.lblSubtitulo.Size = new System.Drawing.Size(250, 29);
+            this.lblSubtitulo.Size = new System.Drawing.Size(351, 29);
             this.lblSubtitulo.TabIndex = 0;
-            this.lblSubtitulo.Text = "Ganacia en cada período";
+            this.lblSubtitulo.Text = "Ganacia anual por tipo de inversión";
             // 
             // lblTitulo
             // 
@@ -374,7 +374,7 @@
             this.textBoxOpcionProvincia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.textBoxOpcionProvincia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxOpcionProvincia.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
-            this.textBoxOpcionProvincia.ForeColor = System.Drawing.Color.Black;
+            this.textBoxOpcionProvincia.ForeColor = System.Drawing.Color.White;
             this.textBoxOpcionProvincia.Location = new System.Drawing.Point(110, 208);
             this.textBoxOpcionProvincia.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxOpcionProvincia.Name = "textBoxOpcionProvincia";
@@ -390,7 +390,7 @@
             this.textBoxOpcionNacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.textBoxOpcionNacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxOpcionNacion.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
-            this.textBoxOpcionNacion.ForeColor = System.Drawing.Color.Black;
+            this.textBoxOpcionNacion.ForeColor = System.Drawing.Color.White;
             this.textBoxOpcionNacion.Location = new System.Drawing.Point(298, 208);
             this.textBoxOpcionNacion.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxOpcionNacion.Name = "textBoxOpcionNacion";
@@ -406,7 +406,7 @@
             this.textBoxOpcionHipotecario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(234)))), ((int)(((byte)(254)))));
             this.textBoxOpcionHipotecario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxOpcionHipotecario.Font = new System.Drawing.Font("Segoe UI Semibold", 11F);
-            this.textBoxOpcionHipotecario.ForeColor = System.Drawing.Color.Black;
+            this.textBoxOpcionHipotecario.ForeColor = System.Drawing.Color.White;
             this.textBoxOpcionHipotecario.Location = new System.Drawing.Point(486, 208);
             this.textBoxOpcionHipotecario.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.textBoxOpcionHipotecario.Name = "textBoxOpcionHipotecario";
